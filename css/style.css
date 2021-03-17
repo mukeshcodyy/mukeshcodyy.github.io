@@ -1,0 +1,597 @@
+@import "utilities.css";
+:root {
+    --primary: #3DCFD3;
+    --dark: #161616;
+    --pure: #FFFFFF;
+    --ternary: #898989;
+    --light: #F2F2F2;
+    --secondary: #070606;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    -webkit-font-smothing: antialiased;
+    /* max-width: 100%; */
+}
+
+
+/* navbar */
+
+header {
+    background: var(--dark);
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 70% 87%, 0 100%);
+}
+
+.container {
+    padding: 0 15px;
+    max-width: 1152px;
+    margin: 0 auto;
+}
+
+header nav .left a {
+    margin-right: 2rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--pure);
+    transition: all 0.3s ease;
+}
+
+header nav .left a:hover {
+    font-size: 19px;
+    color: var(--primary);
+}
+
+header nav {
+    padding: 2rem 0;
+}
+
+header nav .branding {
+    padding-right: 2.5rem;
+}
+
+header nav .branding img {
+    height: 50px;
+    width: 50px;
+}
+
+.link {
+    text-decoration: none;
+    background: transparent;
+    color: var(--dark);
+    transition: all .5s ease;
+}
+
+.link:hover {
+    color: var(--primary);
+}
+
+
+/* herosection */
+
+.hero {
+    padding: 3rem 0;
+}
+
+.hero .left img {
+    width: 500px;
+}
+
+.hero .right {
+    color: var(--pure);
+}
+
+.hero .right h6 {
+    font-size: 2rem;
+}
+
+.hero .right h1 {
+    font-size: 4rem;
+    font-weight: 100;
+    line-height: 1.2;
+    margin-bottom: 2rem;
+}
+
+.hero .right h1 span {
+    color: var(--primary);
+}
+
+.hero .right p {
+    font-size: 1.4rem;
+    line-height: 1.9;
+    margin-bottom: 2rem;
+}
+
+.hero .right {
+    margin-top: -7rem;
+}
+
+
+/* about section */
+
+section {
+    padding: 6rem 0;
+}
+
+section.about .about-me-img {
+    height: 580px;
+    width: 430px;
+    transition: all 0.6s ease;
+    border-radius: 10px;
+    clip-path: polygon(0 0, 40% 0, 100% 80%, 100% 100%, 0 100%);
+}
+
+section.about .about-me-img:hover {
+    height: 600px;
+    width: 450px;
+}
+
+section.about h1 {
+    margin-bottom: 1rem;
+    font-weight: 400;
+    font-size: 1.6rem;
+}
+
+section.about h1 span {
+    color: var(--primary);
+}
+
+section.about h4 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+    font-weight: 400;
+}
+
+section.about p {
+    font-size: 1.3rem;
+    font-family: 'Poppins', sans-serif;
+    color: var(--ternary);
+    line-height: 2rem;
+}
+
+section.about .social {
+    display: flex;
+    color: #161616;
+}
+
+section.about .social a img {
+    margin-top: 3rem;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+}
+
+section.about .social .youtube img {
+    width: 30px;
+    border-radius: 50%;
+    height: 30px;
+}
+
+section.about .social a img:hover {
+    width: 35px;
+    height: 35px;
+}
+
+section.about .social a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 35px;
+    height: 35px;
+}
+
+
+/* services section */
+
+.section-heading {
+    color: var(--secondary);
+    text-align: center;
+    margin-bottom: 1rem;
+    line-height: 0.5;
+}
+
+.section-heading span {
+    color: var(--primary);
+}
+
+.section-heading+p {
+    text-align: center;
+    color: var(--ternary);
+    margin-bottom: 1rem;
+}
+
+section.services .card-wrapper .card .ser-img img {
+    height: 80px;
+    border-radius: 10px;
+    border: 2px solid transparent;
+    width: 100px;
+    padding: 15px 20px;
+    background-color: var(--primary);
+    position: absolute;
+    top: -2.7rem;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+section.services .card-wrapper .card .cloud img {
+    width: 105px;
+    padding: 15px 5px;
+    background-color: var(--primary);
+}
+
+section.services {
+    background: var(--light);
+}
+
+section.services .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin-top: 7rem;
+}
+
+section.services .card-wrapper .card {
+    text-align: center;
+    position: relative;
+    padding-top: 15px;
+    background: var(--pure);
+    padding: 2rem 2rem;
+    border-radius: 10px;
+    transition: all .5s ease;
+}
+
+section.services .card-wrapper .card h2 {
+    margin-top: 2rem;
+    margin-bottom: .2rem;
+    font-weight: 100;
+    font-size: 1.2rem;
+}
+
+section.services .card-wrapper .card p {
+    color: var(--ternary);
+    font-family: 'Lato', sans-serif;
+    font-size: 17px;
+    font-weight: 900;
+}
+
+section.services .card-wrapper .card:hover {
+    background: var(--dark);
+}
+
+section.services .card-wrapper .card:hover h2,
+section.services .card-wrapper .card:hover p {
+    color: var(--pure);
+}
+
+
+/* freelance section */
+
+
+/* section.freelancer {} */
+
+section.freelancer {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 80%, 0 100%);
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/camera.png);
+    height: 100%;
+    width: 100%;
+    color: var(--pure);
+    text-align: center;
+    padding-bottom: 14rem;
+}
+
+section.freelancer h1 {
+    font-size: 2rem;
+    margin-bottom: .7rem;
+}
+
+section.freelancer p {
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 2rem;
+}
+
+
+/* section reviews */
+
+section.reviews {
+    background: var(--light);
+}
+
+section.reviews .slider .slide {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    padding: 0 12rem;
+}
+
+section.reviews .slider .slide h2 {
+    line-height: 1.4;
+    font-family: 'Lato', sans-serif;
+    color: var(--ternary);
+    font-weight: 900;
+}
+
+section.reviews .slider .slide img {
+    margin-top: 1rem;
+    height: 60%;
+    width: 70%;
+    justify-content: center;
+    align-items: center;
+}
+
+section.reviews .slider .bend img {
+    margin-left: 7rem;
+}
+
+section.reviews .slider-dots .dots {
+    list-style-type: none;
+    display: flex!important;
+    justify-content: center;
+    outline: none;
+}
+
+section.reviews .slider-dots {
+    margin-top: 1rem;
+}
+
+section.reviews .slider-dots button {
+    cursor: pointer;
+    font-size: 0;
+    height: .5rem;
+    width: .7rem;
+    border-radius: 50px;
+    border: none;
+    outline: none;
+    background: var(--ternary);
+    margin-right: 3px;
+}
+
+section.reviews .dots li.slick-active button {
+    background: var(--primary);
+    width: 1.3rem;
+}
+
+
+/* section work */
+
+section.work {
+    background: var(--pure);
+}
+
+section.work .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 2rem;
+}
+
+section.work .card-wrapper .card img {
+    border-radius: 10px;
+    width: 100%;
+    height: 100%;
+}
+
+section.work .card-wrapper .card {
+    position: relative;
+}
+
+section.work .card-wrapper .card .overlay {
+    border-radius: 10px;
+    position: absolute;
+    background-color: rgba(61, 207, 211, 0.9);
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    flex-direction: column;
+    color: var(--ternary);
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+
+section.work .card-wrapper .card:hover .overlay {
+    opacity: 1;
+}
+
+section.work .card-wrapper .card .overlay a {
+    color: var(--secondary);
+    text-decoration: none;
+}
+
+
+/* section blog */
+
+section.blog {
+    background-color: var(--dark);
+    padding-bottom: 12rem;
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 67% 90%, 0 100%);
+}
+
+section.blog .container h1 {
+    color: var(--pure);
+}
+
+section.blog .card-wrapper {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 2rem;
+}
+
+section.blog .card-wrapper .img-wrapper img {
+    margin-bottom: -3%;
+}
+
+section.blog .card-content {
+    background: var(--pure);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding: .6rem .6rem;
+}
+
+section.blog .card-wrapper .card-content a {
+    text-decoration: none;
+    transition: all 0.5s ease;
+    color: var(--ternary);
+    padding-bottom: 5px;
+}
+
+section.blog .card-wrapper .card-content a:hover {
+    color: #7950a8;
+}
+
+section.blog .card-wrapper .card-content p {
+    font-size: 1rem;
+    padding-bottom: 10px;
+    font-weight: 600;
+    color: var(--primary);
+}
+
+section.blog .card-wrapper .card-content span {
+    margin: 5px 0;
+    color: #152227;
+}
+
+
+/* section contact */
+
+section.contact .wrapper-card {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+section.contact .wrapper-card .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section.contact .wrapper-card .card h1 {
+    margin-top: 1.7rem;
+}
+
+section.contact .wrapper-card .card img {
+    width: 100px;
+    height: 100px;
+}
+
+section.contact .input .input-wrap {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 2rem;
+    margin-top: 5rem;
+}
+
+section.contact .input .input-wrap input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+}
+
+section.contact .input .input-wrap-1 {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 1.5rem;
+}
+
+section.contact .input .input-wrap-1 input {
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+}
+
+section.contact .input .input-wrap-1 textarea {
+    margin-top: 1.5rem;
+    margin-bottom: 2rem;
+    padding: 8px;
+    border-radius: 4px;
+    border: 2px solid var(--primary);
+    font-size: 1.2rem;
+}
+
+section.contact .btn {
+    margin-left: 0px;
+}
+
+
+/* footer section */
+
+footer img {
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background: var(--dark);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0rem;
+}
+
+footer .footer-socials img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    transition: all 0.3s ease;
+    margin: 1rem .5rem;
+}
+
+footer .footer-socials img:hover {
+    width: 35px;
+    border: 1px solid var(--pure);
+    height: 35px;
+}
+
+footer .copy-right {
+    text-align: center;
+    color: var(--pure);
+}
+
+
+/* external */
+
+
+/* @media (min-width:1200px) {
+    .container {
+        max-width: 1152px;
+    }
+}
+
+@media (min-width:768px) {
+    .container {
+        max-width: 720px;
+    }
+}
+
+@media (min-width:992px) {
+    .container {
+        max-width: 960px;
+    }
+} */
+
+@media (min-width:1025px) {
+    #cut {
+        display: none;
+    }
+    section.skill {
+        display: none;
+    }
+}
+
+@media (min-width:736px) {}
