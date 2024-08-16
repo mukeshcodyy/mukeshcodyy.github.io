@@ -1,344 +1,742 @@
 <!DOCTYPE html>
 <html lang="en">
+<!-- 
+
+███╗░░░███╗██╗░░░██╗██╗░░██╗███████╗░██████╗██╗░░██╗
+████╗░████║██║░░░██║██║░██╔╝██╔════╝██╔════╝██║░░██║
+██╔████╔██║██║░░░██║█████═╝░█████╗░░╚█████╗░███████║
+██║╚██╔╝██║██║░░░██║██╔═██╗░██╔══╝░░░╚═══██╗██╔══██║
+██║░╚═╝░██║╚██████╔╝██║░╚██╗███████╗██████╔╝██║░░██║
+╚═╝░░░░░╚═╝░╚═════╝░╚═╝░░╚═╝╚══════╝╚═════╝░╚═╝░░╚═╝
+░░░░░██╗░█████╗░███╗░░██╗░██████╗░██╗██████╗░
+░░░░░██║██╔══██╗████╗░██║██╔════╝░██║██╔══██╗
+░░░░░██║███████║██╔██╗██║██║░░██╗░██║██║░░██║
+██╗░░██║██╔══██║██║╚████║██║░░╚██╗██║██║░░██║
+╚█████╔╝██║░░██║██║░╚███║╚██████╔╝██║██████╔╝
+░╚════╝░╚═╝░░╚═╝╚═╝░░╚══╝░╚═════╝░╚═╝╚═════╝░
+What are you doing here?! you sneaky developer...
+-->
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" media='screen and (min-width: 414px) and (max-width: 576px)' href="css/phone.css" />
-    <link rel="stylesheet" media='screen and (min-width: 768px) and (max-width: 1024px)' href="css/tablet.css" />
+  <!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-PD7XW8ZX');</script>
+  <!-- End Google Tag Manager -->
 
-</head>
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- don't forget to remove this >>>>(google tag manager) script, if you are using this page/code -->
+  <!-- Google tag (gtag.js) -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-YMWDE0VTD3"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-<body>
-    <div class="site-main-wrapper">
-        <button id="cut" class="hamburger">
-            <img src="img/hamberger.svg" alt="">
+    gtag("config", "G-YMWDE0VTD3");
+  </script> -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- <meta name="google-site-verification" content="zMNl24ruDnyqiliYwKNU_r09OkPCDKz0kMBtF9nqiCc" /> -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+  <!-- don't forget to remove this >>(google site verification meta tag) tag, if you are using this page/code -->
+
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+  <meta name="theme-color" content="#000" />
+  <meta name="description"
+    content="Mukesh Jangid | Portfolio, Visit and know about me & my projects/designs. Hi! I'm Mukesh, a frontend developer with 5 years of experience in software development. I specialize in crafting interactive and visually appealing web experiences, mastering the entire project life cycle from concept to deployment." />
+  <meta name="keywords"
+    content="mukesh jangid,mukesh jangid portfolio,Mukesh Jangid Portfolio,mukeshjangid,mukesh jangid site,Mukesh Jangid Site,mukesh jangid me,mukesh jangid web,mukesh jangid github,mukeshjangid site,mukeshjangid uiverse,uiverse,mukesh jangid uiverse,mukesh jangid frontend developer,frontend developer,mukesh jangid ahmedabad,mukesh india" />
+  <meta name="author" content="Mukesh Jangid" />
+  <meta property="og:image" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <meta property="og:title" content="Mukesh Jangid | Portfolio" />
+  <meta property="og:description"
+    content="Hi! I'm Mukesh, a frontend developer with 5 years of experience in software development. I specialize in crafting interactive and visually appealing web experiences, mastering the entire project life cycle from concept to deployment." />
+
+  <meta property="og:url" content="https://vinodjangid.site" />
+  <meta property="og:site_name" content="Mukesh Jangid Portfolio" />
+
+  <meta name="twitter:image:src" content="https://www.vinodjangid.site/src/png/Preview-card-min.png" />
+  <meta name="twitter:site" content="@Portfolio" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Mukesh Jangid | Portfolio" />
+  <meta name="twitter:description"
+  content="Hi! I'm Mukesh, a frontend developer with 5 years of experience in software development. I specialize in crafting interactive and visually appealing web experiences, mastering the entire project life cycle from concept to deployment." />
+  <title>Mukesh Jangid | Portfolio</title>
+  <link rel="icon" type="image/x-icon" href="src/png/main-favicon.png" />
+  <!-- aos cdn -->
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+  <!-- google fonts-->
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Passions+Conflict&family=Orbitron&family=Fira+Code&family=Six+Caps" />
+
+<body class="body">
+  <!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PD7XW8ZX"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+  <audio loop="" id="audioPlayer" style="display: none">
+    <source src="src/mp3/preloader.mp3" type="audio/mp3" />
+  </audio>
+  <div id="preloader"></div>
+  <noscript>Allow Javascript</noscript>
+  <header>
+    <div class="cursor-inner" id="cursor-inner"></div>
+    <div class="cursor-outer" id="cursor-outer"></div>
+
+    <div class="navbar" id="navbar">
+      <div class="hey">Hey!</div>
+      <div class="logo" tabindex="0" aria-label="vinod jangid logo">
+        <div class="logo-top">
+          <img src="src/png/nav-avatar.png" alt="animation-head" id="nav-avatar"/>
+        </div>
+      </div>
+      <div class="navbar-tabs" id="navbar-tabs">
+        <ul class="navbar-tabs-ul">
+          <li class="home activeThistab" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="100">
+            <a href="#home" tabindex="0" aria-label="Home menu button">
+              Home
+            </a>
+          </li>
+
+          <li class="about" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="300">
+            <a href="#about" aria-label="about menu button">
+              About Me
+            </a>
+          </li>
+          <li class="skills" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#skills" aria-label="skills menu button">
+              Skills
+            </a>
+          </li>
+          <li class="experience" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="500">
+            <a href="#experience" aria-label="experience menu button">
+              Experience
+            </a>
+          </li>
+
+          <li class="projects" class="navbar-tabs-li" data-aos="fade-down" data-aos-delay="700">
+            <a href="#projects" aria-label="projects menu button">
+              Projects
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- navbar tabs ends -->
+    </div>
+  </header>
+  <!-- header ends here -->
+
+  <main>
+    <!-- hamburger -->
+    <div class="hamburger" id="hamburger" data-aos="fade">
+      <div class="hamburgerbase">
+        <button id="hamburger-button" onclick="hamburgerMenu()" tabindex="0" aria-label="Menu Button">
+          <span class="burger-bar" id="burger-bar1"></span>
+          <span class="burger-bar" id="burger-bar2"></span>
+          <span class="burger-bar" id="burger-bar3"></span>
         </button>
-        <div id="cut" class="mobile-nav">
-            <button class="times">
-                <img src="img/times.png" alt="">
+      </div>
+    </div>
+    <!-- hamburger -->
+    <div class="mobiletogglemenu" id="mobiletogglemenu">
+      <ul class="mobile-navbar-tabs-ul" id="mobile-ul">
+        <li id="home-mobile-tab" class="mobile-navbar-tabs-li home activeThismobiletab" onclick="hidemenubyli()">
+          <a href="#home" tabindex="0" aria-label="Home menu button">
+            Home
+          </a>
+        </li>
 
-            </button>
-            <div class="logo">
-                <img src="img/logom.png" alt="">
+        <li id="aboutme-mobile-tab" class="mobile-navbar-tabs-li about" onclick="hidemenubyli()">
+          <a href="#about" tabindex="0" aria-label="about menu button">
+            About Me
+          </a>
+        </li>
+        <li id="skills-mobile-tab" class="mobile-navbar-tabs-li skills" onclick="hidemenubyli()">
+          <a href="#skills" tabindex="0" aria-label="skills menu button">
+            Skills
+          </a>
+        </li>
+        <li id="experience-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#experience" tabindex="0" aria-label="experience menu button">
+            Experience
+          </a>
+        </li>
+        <li id="projects-mobile-tab" class="mobile-navbar-tabs-li projects" onclick="hidemenubyli()">
+          <a href="#projects" tabindex="0" aria-label="projects menu button">
+            Projects
+          </a>
+        </li>
+      </ul>
+    </div>
+    <!-- mobile toggle menu ends -->
+
+    <section class="landing-page-container" id="home">
+      <div class="blob"></div>
+
+      <div class="text-content">
+        <article id="hello-friend" data-aos="fade-up" data-aos-delay="0">
+          <p class="jello">N</p>
+          <p class="jello">a</p>
+          <p class="jello">m</p>
+          <p class="jello">a</p>
+          <p class="jello">s</p>
+          <p class="jello">t</p>
+          <p class="jello">e</p>
+          &nbsp;
+          <p class="jello">I</p>
+          <p class="jello">'</p>
+          <p class="jello">m</p>
+        </article>
+        <article id="name" data-aos="fade-up" data-aos-delay="200">
+          <p class="jello">M</p>
+          <p class="jello">u</p>
+          <p class="jello">k</p>
+          <p class="jello">e</p>
+          <p class="jello">s</p>
+          <p class="jello">h</p>
+          &nbsp;
+          <p class="jello">J</p>
+          <p class="jello">a</p>
+          <p class="jello">n</p>
+          <p class="jello">g</p>
+          <p class="jello">i</p>
+          <p class="jello">d</p>
+          <p class="jello">.</p>
+        </article>
+
+        <article id="work" data-aos="fade-up" data-aos-delay="400">
+          <div>
+            <p class="jello">I</p>
+          </div>
+          <div>
+            <p class="jello">c</p>
+            <p class="jello">o</p>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+          </div>
+          <div>
+            <p class="jello">&</p>
+          </div>
+          <div>
+            <p class="jello">d</p>
+            <p class="jello">e</p>
+            <p class="jello">s</p>
+            <p class="jello">i</p>
+            <p class="jello">g</p>
+            <p class="jello">n</p>
+          </div>
+          <div>
+            <p class="jello">f</p>
+            <p class="jello">o</p>
+            <p class="jello">r</p>
+          </div>
+          <div>
+            <p class="jello">w</p>
+            <p class="jello">e</p>
+            <p class="jello">b</p>
+            <p class="jello">.</p>
+          </div>
+        </article>
+        <p id="info-para" data-aos="fade-up" data-aos-delay="600">
+          Frontend Developer with experience in creating interactive and responsive web applications. I enjoy bringing designs to life through code and collaborating with teams to build user-friendly products.<br /><br />
+          I value clean, maintainable code, intuitive user experiences, and thoughtful interactions.
+        </p>
+        
+        <div class="contact-btn-div" data-aos="fade-up" data-aos-delay="800">
+          <a href="mailto:mukeshjangid34343434@gmail.com" tabindex="-1">
+            <button class="letsTalkBtn">
+              <p class="letsTalkBtn-text">Let's Talk!</p>
+              <span class="letsTalkBtn-BG"></span>
+            </button></a>
+          <div class="setting-container" id="setting-container">
+            <input type="checkbox" id="switchforsetting" onclick="settingtoggle()" />
+
+            <label for="switchforsetting" class="needtobeinvert" id="labelforsetting" tabindex="0"
+              aria-label="settings for sound and appearance"></label>
+
+            <div class="visualmodetogglebuttoncontainer" id="visualmodetogglebuttoncontainer">
+              <input type="checkbox" id="switchforvisualmode" onclick="visualmode()" />
+              <label for="switchforvisualmode" id="labelforvisualmode" tabindex="0"
+                aria-label="switch appearance"></label>
             </div>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">about</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#work">work</a></li>
-                <li><a href="#blog">Blog</a></li>
-            </ul>
+
+            <div class="soundtogglebuttoncontainer" id="soundtogglebuttoncontainer">
+              <input type="checkbox" id="switchforsound" onclick="playpause()" />
+              <label for="switchforsound" id="labelforsound" tabindex="0" aria-label="switch sound"
+                class="needtobeinvert"></label>
+            </div>
+          </div>
+          <!-- setting div ends -->
+        </div>
+        <!-- contact-btn-div -->
+      </div>
+     
+    </section>
+    <!-- landing page ends here -->
+    <section class="about-section-container" id="about" data-aos="fade-up">
+      <div class="about-section">
+        <div class="section-heading">
+          <h2 class="section-heading-article" tabindex="0" aria-label="About me heading">
+            About Me
+          </h2>
+          <p class="sectionHeadingP"></p>
         </div>
 
-        <header>
-            <div class="container">
+        <div class="info-dp-section">
+          <div class="about-info">
+            <p tabindex="0">
+              Hi! I'm Mukesh, a frontend developer with 5 years of experience in software development. I specialize in crafting interactive and visually appealing web experiences, mastering the entire project life cycle from concept to deployment.
+          </p>
+          <br />
+          <p tabindex="0">
+              Adept with diverse programming languages and tools, I transform complex ideas into functional, user-friendly websites and applications. My expertise includes frontend development, mathematics, algorithm design, and time series algorithms, enabling me to solve technical challenges with innovative solutions.
+          </p>
+             <!-- Resume button -->
+      <button class="resume-btn" id="resume-btn" onclick="openURL()">
+        <div class="sign">
+          <svg viewBox="0 0 640 512">
+            <path
+              d="M144 480C64.5 480 0 415.5 0 336c0-62.8 40.2-116.2 96.2-135.9c-.1-2.7-.2-5.4-.2-8.1c0-88.4 71.6-160 160-160c59.3 0 111 32.2 138.7 80.2C409.9 102 428.3 96 448 96c53 0 96 43 96 96c0 12.2-2.3 23.8-6.4 34.6C596 238.4 640 290.1 640 352c0 70.7-57.3 128-128 128H144zm79-167l80 80c9.4 9.4 24.6 9.4 33.9 0l80-80c9.4-9.4 9.4-24.6 0-33.9s-24.6-9.4-33.9 0l-39 39V184c0-13.3-10.7-24-24-24s-24 10.7-24 24V318.1l-39-39c-9.4-9.4-24.6-9.4-33.9 0s-9.4 24.6 0 33.9z" />
+          </svg>
+        </div>
 
-                <nav id="main-nav" class="  flex items-center justify-between">
-                    <div class="left flex items-center ">
-                        <div class="branding">
-                            <img src="img/logom.png" alt="">
-                        </div>
-                        <div>
-                            <a href="#home">Home</a>
-                            <a href="#about">About</a>
-                            <a href="#services">Services</a>
-                            <a href="#work">work</a>
-                            <a href="#blog">Blog</a>
-                        </div>
-                    </div>
-                    <div class="right">
-                        <button class="btn btn-primary"><a class="link" href="#contact">Contact</a></button>
-                    </div>
-                </nav>
-                <div id="home" class="hero flex items-center justify-between">
-                    <div class="left flex-1 flex justify-center">
-                        <img src="img/man01.png" alt="iam">
-                    </div>
-                    <div class="right flex-1 ">
-                        <h6>Mukesh Jangid</h6>
-                        <h1>I am a creative <span>Designer</span>.</h1>
-                        <p>I use code to create things on the internet. I got into development and design because computers have always fascinated me.</p>
-                        <div>
-                            <button class="btn btn-secondary">DAWNLOAD CV</button>
-                        </div>
-                    </div>
+        <div class="text">Resume</div>
+      </button>
+          </div>
 
-                </div>
+          <div class="dp" data-aos="fade-up">
+            <img src="src/webp/mukesh_profile.webp" alt="Vinod Jangid" tabindex="0" aria-label="image of vinod" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- about section ends  -->
+
+    <section class="skills-section-container" id="skills">
+      <div class="skills-section">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="skills heading">
+            Skills
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+
+        <div class="frontend-dev-section">
+          <h3 class="frontend-dev-heading" data-aos="fade-up" tabindex="0"
+            aria-label="As a frontend a developer these are the skills i have">
+            Tech Stack
+          </h3>
+          <ul class="tech-stack-wrapper">
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/reactlogo.png" alt="React Js skill" class="tech-stack-logo" />
+              <span class="tooltip">REACT</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/svg/nextlogo.svg" alt="Next Js skill" class="tech-stack-logo" />
+              <span class="tooltip">NEXT JS</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/svg/angularlogo.svg" alt="Angular skill" class="tech-stack-logo" />
+              <span class="tooltip">ANGULAR</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/nodelogo.png" alt="Node Js skill" class="tech-stack-logo" />
+              <span class="tooltip">NODE JS</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://miro.medium.com/v2/resize:fit:512/1*doAg1_fMQKWFoub-6gwUiQ.png" alt="MongoDB language skill" class="tech-stack-logo" />
+              <span class="tooltip">MongoDB</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/mysqllogo.png" alt="photoshop skill" class="tech-stack-logo" />
+              <span class="tooltip">MYSQL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/svg/graphqllogo.svg" alt="figma skill" class="tech-stack-logo" />
+              <span class="tooltip">GRAPHQL</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="https://sue.eu/wp-content/uploads/sites/6/2022/06/aws-logo-920x920-sue-v01.png" alt="adobe illustrator skill" class="tech-stack-logo" />
+              <span class="tooltip">AWS</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/svg/bitbucket-atlassian-logo.svg" alt="Bitbucket skill" class="tech-stack-logo" />
+              <span class="tooltip">BITBUCKET</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/githublogo.png" alt="github skill" class="tech-stack-logo needtobeinvert" />
+              <span class="tooltip">GITHUB</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/gitlogo.png" alt="git skill" class="tech-stack-logo" />
+              <span class="tooltip">GIT</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/svg/gitlablogo.svg" alt="c language skill" class="tech-stack-logo" />
+              <span class="tooltip">GITLAB</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/htmllogo.png" alt="Html skill" class="tech-stack-logo" />
+              <span class="tooltip">HTML</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/csslogo.png" alt="css skill" class="tech-stack-logo" />
+              <span class="tooltip">CSS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/jslogo.png" alt="js skill" class="tech-stack-logo" />
+              <span class="tooltip">JS</span>
+            </li>
+
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/bootstraplogo.png" alt="bootstrap skill" class="tech-stack-logo" />
+              <span class="tooltip">BOOTSTRAP</span>
+            </li>
+            <li class="tech-stack-box" data-aos="fade-up">
+              <img src="./src/png/canvalogo.png" alt="canva skill" class="tech-stack-logo" />
+              <span class="tooltip">CANVA</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- skills section ends -->
+    <section class="projects-section-container" id="experience">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            Experience
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="exprience-box project-box2" id="project-box2">
+              <div class="exprience-div">
+                <article class="ProjectHeading">Techblocks</article>
+                <p class="ProjectDescription"><small>Oct 2023 - Presant</small></p>
+                <p class="ProjectDescription"><small>Senior Software Engineer</small></p>
+                <p class="ProjectDescription">
+                  Techblocks: Spearheaded the development of a crucial eCommerce Product Listing Page (PLP) using micro frontend technology. Leveraged Next.js for server-side rendering (SSR) and efficiently managed packages with pnpm.
+                </p>
+              </div>
             </div>
-        </header>
-        <section id="about" class="about">
-            <div class="container flex items-center">
-                <div class="pad flex-1">
-                    <img class="about-me-img" src="img/man02.jpeg" alt="">
-                </div>
-                <div class="mobi flex-1">
-                    <h1>About <span>Me</span></h1>
-                    <h4>Hi, I am mukesh.</h4>
-                    <p>I’m a self taught web developer and web designer based in Ahmedabad , Gujarat and I am currently pursuing Bechlore of Engineering from Ahmedabad, Gujarat, India. When I'm not coding you can find me watching web series or movies, surfing
-                        instagram. I'm passionate about tech and startups.</p>
+          </div>
 
-                    <div class="social">
-                        <a href="https://www.instagram.com/mukeshjangid34343434/"><img src="img/instagram.png" alt=""></a>
-                        <a href="https://www.facebook.com/profile.php?id=100022600628222"><img src="img/facebook.png" alt=""></a>
-                        <a href="https://github.com/mukesh-code-ops"><img src="img/github.png" alt=""></a>
-                        <a href="https://www.linkedin.com/in/mukesh-jangid-8765b0201/"><img src="img/linkedIn_PNG23.png" alt=""></a>
-
-                        <a class="youtube" href="https://www.youtube.com/channel/UCAIsvVrLZYIm-1ayk4n2gSA/videos"><img src="img/youtube-logo.jpg" alt=""></a>
-                    </div>
-                </div>
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="exprience-box project-box2" id="project-box2">
+              <div class="exprience-div">
+                <article class="ProjectHeading">Adit Microsys</article>
+                <p class="ProjectDescription"><small>April 2023 - Sep 2023 </small></p>
+                <p class="ProjectDescription"><small>Software Engineer</small></p>
+                <p class="ProjectDescription">
+                  Adit Microsys: Led the development of admin services in Node.js, ensuring seamless data synchronization with Zoho Admin. Also integrated Zoho CRM API to enhance system efficiency.
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="services" class="services">
-            <div class="container">
-                <h1 class="section-heading"><span>My</span> Services</h1>
-                <p>I am very confident on my work.</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="ser-img">
-                            <img src="img/coding.png" alt="">
-                        </div>
-                        <h2>Web Developer</h2>
-                        <p>Web Development using python(Django) and JavaScript(NodeJs) with complete Security & Database Management.</p>
-                    </div>
-                    <div class="card">
-                        <div class="ser-img">
-                            <img src="img/ux.png" alt="">
-                        </div>
-                        <h2>Web Designer</h2>
-                        <p>Web Designing using HTML, CSS, JS & Bootstrap with complete testing of UI/UX & Responsive.</p>
-                    </div>
-                    <div class="card">
-                        <div class="cloud ser-img">
-                            <img src="img/cloudps.png" alt="">
-                        </div>
-                        <h2>Cloud Computing</h2>
-                        <p>providing cloud services using Azure(Microsoft).</p>
-                    </div>
-
-                </div>
+          </div>
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="exprience-box project-box2" id="project-box2">
+              <div class="exprience-div">
+                <article class="ProjectHeading">Solution Analysts</article>
+                <p class="ProjectDescription"><small>Nov 2021 - April 2023 </small></p>
+                <p class="ProjectDescription"><small>Software Engineer</small></p>
+                <p class="ProjectDescription">
+                  Solution Analysts: Served as a Full Stack Developer, responsible for implementing features on the admin panel. Managed server operations using AWS services, including EC2 for computing and S3 for storage solutions.
+                </p>
+              </div>
             </div>
-        </section>
-
-        <section id="skill" class="skill">
-            <div class="container  items-center justify-between ">
-                <h1 class="section-heading"> <span>My</span> skills</h1>
-                <p>I am master in below Programming Langueges.</p>
-                <div class="kam">
-                    <div>
-                        <h1>Backend Development</h1>
-                        <img src="img/bend.png" alt="">
-
-                    </div>
-                    <div>
-                        <h1>Frontend Development</h1>
-
-                        <img src="img/frontend.png" alt="">
-
-                    </div>
-                    <div>
-                        <h1>Cloud Computing</h1>
-                        <img src="img/cloudps.png" alt="">
-
-
-                    </div>
-                </div>
+          </div>
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="exprience-box project-box2" id="project-box2">
+              <div class="exprience-div">
+                <article class="ProjectHeading">Multitech Solution and Service</article>
+                <p class="ProjectDescription"><small>April 2021 - Nov 2021 </small></p>
+                <p class="ProjectDescription"><small>Software Engineer</small></p>
+                <p class="ProjectDescription">
+                  Multitech Solution and Service:
+                    At Multitech Solution and Service, I worked as a Frontend Web Developer, responsible for UI development using HTML, CSS, Bootstrap, and various third-party style frameworks. I also proactively expanded my skill set by learning JavaScript, along with Angular and React, to enhance my expertise in modern web development technologies.  
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="review" class="reviews">
-            <div class="container">
-                <h1 class="section-heading"><span>My</span> Skills</h1>
-                <p>I am master in below Programming Langueges.</p>
-                <div class="slider">
-                    <div class="bend slide">
-                        <h1>Backend Development</h1>
-                        <div class="myimg">
-                            <img src="img/bend.png" alt="">
-                        </div>
-                    </div>
-                    <div class="slide">
-                        <h1>Frontend Development</h1>
-                        <img src="img/frontend.png" alt="">
-                    </div>
-                    <div class="slide">
-                        <h1>Cloud Computing</h1>
-                        <img src="img/cloudps.png" alt="">
-                    </div>
-
-
-                </div>
-                <div class="slider-dots"></div>
+          </div>
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="exprience-box project-box2" id="project-box2">
+              <div class="exprience-div">
+                <article class="ProjectHeading">Turtlesoft Solution</article>
+                <p class="ProjectDescription"><small>June 2019 - April 2021 </small></p>
+                <p class="ProjectDescription"><small>Junior Software Engineer</small></p>
+                <p class="ProjectDescription">
+                  Turtlesoft Solution:
+                    As a frontend developer, I was responsible for UI development, utilizing HTML, CSS, Bootstrap, and various third-party style frameworks to create responsive and visually appealing user interfaces.
+                </p>
+              </div>
             </div>
-        </section>
-        <section id="freelance" class="freelancer">
-
-            <h1>I Am Available For Freelance.</h1>
-            <p>Learnig new technology is my passion, almost eneryday i spend my time to learning.</p>
-            <button class=" btn btn-primary"><a class="link btn-primary" href="https://www.upwork.com/freelancers/~012958f0deb965c3c4">HIRE ME</a></button>
-
-        </section>
-        <section id="work" class="work">
-            <div class="container">
-                <h2 class="section-heading"><span>My</span> Work</h2>
-                <p>From past 3 years i learnt and did below projects, Hope you like it.</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/spacex.github.io">SpaceX web-design</a>
-                        </div>
-                        <img src="img/spacex.png" alt="my">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/digitalclock">Digital clock</a>
-                        </div>
-                        <img src="img/digitel watch .png" alt="my">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/Real_Estate_Project">Real Estate Project</a>
-                        </div>
-                        <img src="img/homes.jpg" alt="my">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/image-category">Category wise image</a>
-                        </div>
-                        <img src="img/merge-many-pictures.jpg" alt="my">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/DjangoCRUD-opration">DjangoCRUD-operation</a>
-                        </div>
-                        <img src="img/ph-1.png" alt="my">
-                    </div>
-                    <div class="card">
-                        <div class="overlay">
-                            <span>Category</span>
-                            <a href="https://github.com/mukeshcodyy/pizzapoint">PizzaPiont</a>
-                        </div>
-                        <img src="img/b1.jpg" alt="my">
-                    </div>
-
-
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="projects-section-container" id="projects">
+      <div class="projects-section-div">
+        <div class="section-heading" data-aos="fade-up">
+          <h2 class="section-heading-article" tabindex="0" aria-label="My projects starts from here">
+            Projects
+          </h2>
+          <p class="sectionHeadingP"></p>
+        </div>
+        <div class="project-boxes-div">
+          <div data-aos="fade-up" class="project-box-wrapper">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="https://static.platform.michaels.com/home-page/Logo.svg" alt="pexelicon website favicon" class="faviconforProject" />
+                <article class="ProjectHeading">Michaels</article>
+                <p class="ProjectDescription">
+                  At Michaels.com, I enhanced the user experience by implementing responsive design, ensuring cross-browser compatibility, and optimizing site performance. Collaborating with backend teams, I integrated dynamic content, contributing to a seamless shopping experience that boosted customer satisfaction and online sales for this leading arts and crafts retailer.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://www.michaels.com/" target="_blank" class="cta"
+                    aria-label="Visit Michaels Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
                 </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/michaels.png" alt="Pexelicon website preview image" />
+              </div>
             </div>
-        </section>
-        <section id="blog" class="blog">
-            <div class="container">
-                <h1 class="section-heading"><span>My</span> Blog</h1>
-                <p>I am going toward bloging which is coming soon.</p>
-                <div class="card-wrapper">
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="img/article-ph-1.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">Lorem, ipsum.</a>
-                            <span>25 may 2020</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti voluptatibus incidunt, voluptates, molestias, ipsum maiores laudantium recusandae ab deleniti mollitia est placeat natus.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="img/article-ph-2.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">Lorem, ipsum.</a>
-                            <span>25 may 2020</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti voluptatibus incidunt, voluptates, molestias, ipsum maiores laudantium recusandae ab deleniti mollitia est placeat natus.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
-                    <div class="card">
-                        <div class="img-wrapper">
-                            <img src="img/article-ph-3.png" alt="">
-                        </div>
-                        <div class="card-content">
-                            <a href="#">Lorem, ipsum.</a>
-                            <span>25 may 2020</span>
-                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus corrupti voluptatibus incidunt, voluptates, molestias, ipsum maiores laudantium recusandae ab deleniti mollitia est placeat natus.</p>
-                            <a href="#">Read More</a>
-                        </div>
-                    </div>
+          </div>
+
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box5" id="project-box5">
+              <div class="info-div">
+                <img src="src/webp/adit.png" alt="Adit website favicon"
+                  class="faviconforProject" />
+                <article class="ProjectHeading">Adit</article>
+                <p class="ProjectDescription">
+                  Adit is a comprehensive dental software utilized across the USA to manage patient records and streamline follow-ups. As a fullstack developer, i contributed to the development of its admin panel, ensuring efficient management of data and enhancing the overall user experience.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://adit.com/" target="_blank" class="cta" aria-label="Visit Adit live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
                 </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/adit.png" alt="Adit website preview image" />
+              </div>
             </div>
-        </section>
+          </div>
 
-
-        <section id="contact" class="contact">
-            <div class="container">
-                <h1 class="section-heading">Contact <span>Me</span></h1>
-                <p>You can contact me from the following technologies.</p>
-                <div class="wrapper-card">
-                    <div class="card">
-                        <img src="img/phone01.jpg" alt="">
-                        <h1 class="section-heading">Call</h1>
-                        <p>8511331518</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/mll.png" alt="">
-                        <h1 class="section-heading">Mail</h1>
-                        <p>mukeshjangid34343434@gmail.com</p>
-                    </div>
-                    <div class="card">
-                        <img src="img/ws01.png" alt="">
-                        <h1 class="section-heading">Whatsapp</h1>
-                        <p>8511331518</p>
-                    </div>
-
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/webp/searchparties.png" alt="SearchParties website favicon"
+                  class="faviconforProjectAquaregia" />
+                <article class="ProjectHeading">SearchParties</article>
+                <p class="ProjectDescription">
+                  I worked on SearchParties as a fullstack developer. This platform empowers music fans by providing a digital catalog of events and festivals. My contributions included developing the admin panel to manage user visits, event details, bookings, payment integration, and more, making it easy for users to discover and book parties nearby.
+                </p>
+                <div class="project-buttons">
+                  <a href="https://searchparties.netlify.app/" target="_blank" class="cta"
+                    aria-label="Visit SearchParties Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
                 </div>
-                <div class="input">
-                    <div class="input-wrap">
-                        <input type="text" placeholder="Your Name">
-                        <input type="text" placeholder="Your Email">
-                    </div>
-                    <div class="input-wrap-1">
-                        <input type="text" placeholder="Your Subject">
-                        <textarea name="message" placeholder="Your Message" id="" cols="30" rows="10"></textarea>
-                    </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/searchparties.png" alt="SearchParties website preview image" />
+              </div>
+            </div>
+          </div>
+          <!-- ---------------------- -->
+          <div class="project-box-wrapper" data-aos="fade-up">
+            <div class="project-box project-box2" id="project-box2">
+              <div class="info-div">
+                <img src="src/png/iTablelogo.ico" alt="iTable website favicon"
+                  class="faviconforProjectAquaregia" />
+                <article class="ProjectHeading">iTable</article>
+                <p class="ProjectDescription">
+                  iTable: I contributed as a fullstack developer to enhance the restaurant management system by implementing features such as role-based permission management, order booking, pre-booking tables, online ordering, employee payroll, and cashier management. My work also included seamless API integration and optimizing the billing system for smooth operations.  
+                </p>
+                <div class="project-buttons">
+                  <a href="https://itable.me/" target="_blank" class="cta"
+                    aria-label="Visit iTable Live">
+                    <span>Live view</span>
+                    <svg viewBox="0 0 13 10" height="10px" width="15px">
+                      <path d="M1,5 L11,5"></path>
+                      <polyline points="8 1 12 5 8 9"></polyline>
+                    </svg>
+                  </a>
                 </div>
-                <div>
-                    <button class="btn btn-secondary">SEND</button>
-                </div>
+              </div>
+              <div class="image-div">
+                <img src="src/png/itable.png" alt="iTable website preview image" />
+              </div>
             </div>
-        </section>
-        <footer>
-            <img src="img/logom.png" alt="">
-            <div class="footer-socials">
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+  <!-- main ends here -->
 
-                <a href="https://www.instagram.com/mukeshjangid34343434/"><img src="img/instagram.png" alt=""></a>
-                <a href="https://www.facebook.com/profile.php?id=100022600628222"><img src="img/facebook.png" alt=""></a>
-                <a href="https://github.com/mukesh-code-ops"><img src="img/github.png" alt=""></a>
-                <a href="https://www.linkedin.com/in/mukesh-jangid-8765b0201/"><img src="img/linkedIn_PNG23.png" alt=""></a>
-
-                <a class="youtube" href="https://www.youtube.com/channel/UCAIsvVrLZYIm-1ayk4n2gSA/videos"><img src="img/youtube-logo.jpg" alt=""></a>
-            </div>
-            <div class="copy-right">
-                Copyright &copy;2021 Mukesh Jangid . All rights reserved!
-            </div>
-
-        </footer>
-
+  <footer id="footer">
+    <button class="fas" id="backtotopbutton" onclick="scrolltoTopfunction()">
+      <article aria-label="Back to top">&#8592;BACK TO TOP</article>
+    </button>
+    <div class="footer-background">
+      <div class="footer-blob"></div>
     </div>
-    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="js/aap.js"></script>
+    <div class="footer-foreground">
+      <div class="footercontainer">
+        <div class="two-words">
+          <article tabindex="0" aria-label="Learning, Living, and Leveling Up, my quote">
+            "Code as Craft, Tech as Passion."
+          </article>
+        </div>
+        <div class="social-media-container">
+          <div class="getintouch-heading">
+            <article>Get in Touch</article>
+          </div>
+          <div class="logos">
+            <a href="https://www.instagram.com/mukeshjangid34343434/" target="_blank" tabindex="0"
+              aria-label="My instagram"><svg viewBox="0 0 448 512" class="SocialHandle">
+                <path
+                  d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+              </svg></a>
+
+            <a href="https://www.linkedin.com/in/mukesh-jangid-8765b0201/" target="_blank"
+              aria-label="My Linkdin"><svg class="SocialHandle" viewBox="0 0 448 512">
+                <path
+                  d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 29.7-24.1 54.3-53.79 54.3zM447.9 448h-92.68V302.4c0-34.7-.7-79.2-48.29-79.2-48.29 0-55.69 37.7-55.69 76.7V448h-92.78V148.9h89.08v40.8h1.3c12.4-23.5 42.69-48.3 87.88-48.3 94 0 111.28 61.9 111.28 142.3V448z" />
+              </svg></a>
+
+            <a href="https://gitlab.com/thedevelopers1980" target="_blank" aria-label="My github"><svg viewBox="0 0 496 512"
+                class="SocialHandle">
+                <path
+                  d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z" />
+              </svg></a>
+
+            <a href="mailto:mukeshjangid34343434@gmail.com" target="_blank" aria-label="My G mail"><svg id="GmailLogo"
+                viewBox="0 0 512 512">
+                <path
+                  d="M64 112c-8.8 0-16 7.2-16 16v22.1L220.5 291.7c20.7 17 50.4 17 71.1 0L464 150.1V128c0-8.8-7.2-16-16-16H64zM48 212.2V384c0 8.8 7.2 16 16 16H448c8.8 0 16-7.2 16-16V212.2L322 328.8c-38.4 31.5-93.7 31.5-132 0L48 212.2zM0 128C0 92.7 28.7 64 64 64H448c35.3 0 64 28.7 64 64V384c0 35.3-28.7 64-64 64H64c-35.3 0-64-28.7-64-64V128z" />
+              </svg></a>
+          </div>
+        </div>
+        <div class="footer-avatar-container">
+          <img src="src/png/footer-avatar-vinod.png" alt="animation-head" class="footer-avatar-img" id="footer-wala-avatar"/>
+          <div class="footer-avatar-face">
+            <div class="footer-avatar-eye footer-left-eye">
+              <div class="footer-pupil"></div>
+            </div>
+            <div class="footer-avatar-eye footer-right-eye">
+              <div class="footer-pupil"></div>
+            </div>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <article>
+            Design & Built by Mukesh Jangid
+            &#169; 2024
+          </article>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- footer ends here -->
+
+  <script src="main.js"></script>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+
+  <script>
+    function openURL() {
+      var url = "src/png/Mukesh jangid resume (08:24).png";
+
+      window.open(url, "_blank");
+    }
+  </script>
+
+  <script>
+    const cursorInner = document.getElementById("cursor-inner");
+    const cursorOuter = document.getElementById("cursor-outer");
+    const links = document.querySelectorAll("a,label,button");
+
+    document.addEventListener("mousemove", function (e) {
+      const posX = e.clientX;
+      const posY = e.clientY;
+
+      cursorInner.style.left = `${posX}px`;
+      cursorInner.style.top = `${posY}px`;
+
+      // cursorOuter.style.left = `${posX}px`;
+      // cursorOuter.style.top = `${posY}px`;
+
+      cursorOuter.animate(
+        {
+          left: `${posX}px`,
+          top: `${posY}px`,
+        },
+        { duration: 500, fill: "forwards" }
+      );
+
+      links.forEach((link) => {
+        link.addEventListener("mouseenter", () => {
+          cursorInner.classList.add("hover");
+          cursorOuter.classList.add("hover");
+        });
+        link.addEventListener("mouseleave", () => {
+          cursorInner.classList.remove("hover");
+          cursorOuter.classList.remove("hover");
+        });
+      });
+    });
+  </script>
+  <!-- <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="vinod.jangid07" data-description="Support me on Buy me a coffee!" data-message="" data-color="#BD5FFF" data-position="left" data-x_margin="18" data-y_margin="18"></script> -->
+  <script>
+    window.onload = function() {
+    settingtoggle();
+  }
+  </script>
 </body>
 
 </html>
