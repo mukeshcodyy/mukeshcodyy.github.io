@@ -22,9 +22,35 @@ function visualmode() {
       e.classList.toggle("invertapplied");
     });
 }
+// Add a timeout to ensure preloader is hidden even if some resources are slow to load
+document.addEventListener("DOMContentLoaded", function() {
+  // Set a maximum time the preloader will show
+  setTimeout(function() {
+    if (loader) {
+      loader.style.opacity = "0";
+      setTimeout(function() {
+        loader.style.display = "none";
+      }, 300);
+    }
+    const heyElement = document.querySelector(".hey");
+    if (heyElement) {
+      heyElement.classList.add("popup");
+    }
+  }, 1500); // Maximum preloader time of 1.5 seconds
+});
+
+// Also keep the original load event for when all resources are actually loaded
 window.addEventListener("load", function () {
-  (loader.style.display = "none"),
-    document.querySelector(".hey").classList.add("popup");
+  if (loader) {
+    loader.style.opacity = "0";
+    setTimeout(function() {
+      loader.style.display = "none";
+    }, 300);
+  }
+  const heyElement = document.querySelector(".hey");
+  if (heyElement) {
+    heyElement.classList.add("popup");
+  }
 });
 let emptyArea = document.getElementById("emptyarea"),
   mobileTogglemenu = document.getElementById("mobiletogglemenu");

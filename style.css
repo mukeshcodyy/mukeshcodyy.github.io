@@ -281,6 +281,8 @@ header {
   overflow-y: hidden;
   background-image: url(src/svg/Pulse-0.4s-200px.svg);
   background-size: 10%;
+  opacity: 1;
+  transition: opacity 0.3s ease-out;
 }
 .navbar,
 noscript {
