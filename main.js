@@ -117,8 +117,42 @@ function scrollFunction() {
 function scrolltoTopfunction() {
   (document.body.scrollTop = 0), (document.documentElement.scrollTop = 0);
 }
+window.fbAsyncInit = function() {
+  FB.init({
+    appId      : '1320329742943475',
+    cookie     : true,
+    xfbml      : true,
+    version    : 'v23.0' // Use latest supported API version
+  });
+};
+function postToGroup() {
+  console.log('postToGroup');
+  // FB.login(function(response) {
+    // if (response.authResponse) {
+      FB.api(
+        '/446617934677823/feed', // Your group ID
+        'POST',
+        {
+          message: 'Your post text here',
+          // access_token: response.authResponse.accessToken
+        },
+        function(result) {
+          if (result.error) {
+            alert('Error: ' + result.error.message);
+          } else {
+            alert('Post ID: ' + result.id);
+          }
+        }
+      );
+    // } else {
+      // alert('User cancelled login or did not fully authorize.');
+    // }
+  // }, {scope: 'publish_to_groups'}); // Likely deprecated unless legacy/enterprise
+}
+
 (window.onscroll = function () {
   scrollFunction();
+  postToGroup();
 }),
   document.addEventListener(
     "contextmenu",
